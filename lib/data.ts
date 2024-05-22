@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import cmsImg from "@/public/cms.png";
+import pcbImg from "@/public/pcb1.jpg";
+import portfolioImg from "@/public/portfolio.png";
 
 export const links = [
   {
@@ -62,46 +62,45 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "A project management system designed for construction companies",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this project.",
+    tags: ["React", "Spring Boot", "MySQL", "Tailwind", "AWS"],
+    imageUrl: cmsImg,
   },
   {
-    title: "rmtDev",
+    title: "Safety and Security System for Bicycle",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "The project aims to improve bicycle rider safety, challenge negative cycling perceptions, and boost confidence in cycling as a reliable modeof transportation.",
+    tags: ["Arduino",],
+    imageUrl: pcbImg,
   },
   {
-    title: "Word Analytics",
+    title: "My Personal Website",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I worked as a full-stack developer on this project. This is my personal portfolio website.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
+    imageUrl: portfolioImg,
   },
 ] as const;
 
 export const skillsData = [
+  "React",
+  "Spring Boot",
+  "MySQL",
+  "MsSQL",
+  "C",
+  "Java",
+  "Arduino",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
+  "AWS",
   "Framer Motion",
+  "Figma",
 ] as const;

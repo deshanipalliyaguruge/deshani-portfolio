@@ -10,6 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import profilePic from "@/public/Prilakshana1.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -32,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1481214110143-ed630356e1bb?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={profilePic}
               alt="Deshani portrait"
               width="192"
               height="192"
@@ -77,7 +78,7 @@ export default function Intro() {
 
         <a
           className="flex items-center gap-2 py-3 transition bg-white rounded-full outline-none cursor-pointer group px-7 focus:scale-110 hover:scale-110 active:scale-105 borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/deshani prilakshana.pdf"
           download
         >
           Download CV{" "}
