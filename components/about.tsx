@@ -17,7 +17,8 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <div className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative  hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20 p-8" >
+      <div className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 
+      relative  hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20 p-8" >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
       A passionate and enthusiastic undergraduate committed
