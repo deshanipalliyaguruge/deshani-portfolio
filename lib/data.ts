@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import cmsImg from "@/public/cms.png";
+import cmsImg from "@/public/storeDashbard.png";
 import pcbImg from "@/public/pcb1.jpg";
 import portfolioImg from "@/public/portfolio.png";
+import doodleImg from "@/public/Doodle.png";
 
 export const links = [
   {
@@ -59,12 +60,12 @@ export const experiencesData = [
     date: "2021 - present",
   },
 ] as const;
-
+ 
 export const projectsData = [
   {
     title: "A project management system designed for construction companies",
     description:
-      "I worked as a full-stack developer on this project.",
+      "A project management system designed for construction companies to effectively oversee their projects nationwide.",
     tags: ["React", "Spring Boot", "MySQL", "Tailwind", "AWS"],
     imageUrl: cmsImg,
   },
@@ -81,6 +82,13 @@ export const projectsData = [
       "I worked as a full-stack developer on this project. This is my personal portfolio website.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
     imageUrl: portfolioImg,
+  },
+  {
+    title: "Doodle Drawing App",
+    description:
+      "A custom-built doodle drawing application. I worked as a full-stack developer on this project.",
+    tags: ["NextJs", "JavaScript", "RoughJs", "Docker"],
+    imageUrl: doodleImg,
   },
 ] as const;
 
