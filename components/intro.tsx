@@ -10,7 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import profilePic from "@/public/Prilakshana1.png";
+import profilePic from "@/public/side photoCopy.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -51,9 +51,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Deshani.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> I enjoy
-        building <span className="italic">sites & apps</span>
+        <span className="font-bold">Hello, I&apos;m Deshani.</span> I&apos;m a{" "}
+        <span className="font-bold">full-stack developer</span> focused on
+        building modern, reliable web experiences.
       </motion.h1>
 
       <motion.div
@@ -78,7 +78,7 @@ export default function Intro() {
 
         <a
           className="flex items-center gap-2 py-3 transition bg-white rounded-full outline-none cursor-pointer group px-7 focus:scale-110 hover:scale-110 active:scale-105 borderBlack dark:bg-white/10"
-          href="/Deshani Prilakshana_SE.pdf"
+          href="/Deshani Palliyaguruge_SE.pdf"
           download
         >
           Download CV{" "}
